@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../public/css/boot/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/minimal/blue.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/jquery.datetimepicker.min.css"/>
+	</head>
+	<body>
+	<div class="container">
+		<h1 class="h1" style="color: white;">我的todo列表</h1>
+		<form class="add-task clearfix">
+			<input class="form-control" autofocus autocomplete="off" type="text" name="content" placeholder="e.g. 明天八点记得开会"/>
+			<button class="btn btn-default">submit</button>
+		</form>
+		<!--清单列表-->
+		<ul class="list-group tasks-item">
+			<!--<li class="tasks-list list-group-item"  style="margin-top: 50px;">
+				<span class="task-content">明天下午两点记得去超市买菜</span>
+				<span class="options">
+					<span class="glyphicon glyphicon-cog option edit"></span>
+					<span class="glyphicon glyphicon-trash delete option"></span>
+				</span>-->
+			<!--</li>-->
+		</ul>
+		<div class="tasks-detail clearfix">
+			<!--<span class="glyphicon glyphicon-remove remove"></span>
+			<input class="content form-control" placeholder="摘要">
+			</input>
+			<textarea class="desc form-control" rows="6">
+			</textarea>
+			<h2 class="h3" style="font-weight: bold;">提醒时间</h2>
+			<div class="remind">
+				<input class="form-control" type="date" />
+				<button class="btn btn-default" style="margin:10px 0;">更新</button>
+			</div>-->
+		</div>
+		<ul class="pager clearfix" style="cursor: pointer;">
+			<li id="prev"><a >上一页</a></li>
+			<p class="pagers"></p>
+			<li id="next"><a >下一页</a></li>
+		</ul>
+		<div id="notice">
+			<p class="notice_content"></p>
+			<button class="btn btn-default notice_confirm">确认</button>
+			<button class="btn btn-default notice_detail">详情</button>
+		</div>
+	</div>
+	<div id="bg"></div>
+	<script src="../public/css/js/jquery-2.1.0.js"></script>
+	<script src="../public/css/js/bootstrap.min.js"></script>
+	<script src="../public/js/store.legacy.min.js"></script>
+	<script src="../public/js/icheck.js"></script>
+	<script src="../public/js/jquery.datetimepicker.full.js"></script>
+	<script src="../public/js/base.js"></script>
+	<script>
+	</script>
+	</body>
+</html>
